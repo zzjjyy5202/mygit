@@ -1,0 +1,43 @@
+﻿# 忽略操作系统与编辑器杂项
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# 编辑器/IDE
+.vscode/
+.idea/
+*.swp
+
+# 日志与调试输出
+*.log
+
+# 临时与备份文件
+*.tmp
+*.bak
+*.bak-*
+*.orig
+
+# 本地环境配置与密钥（务必不要提交）
+.env
+.env.*
+*.pem
+*.key
+.git-credentials
+.credentials/
+
+# 大体积二进制素材（如确需纳管请改用 Git LFS）
+*.psd
+*.blend
+*.zip
+*.7z
+
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+venv/
